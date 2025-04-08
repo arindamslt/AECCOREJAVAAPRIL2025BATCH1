@@ -1,3 +1,174 @@
 GITHUB LINK
 ======================================================================
 https://github.com/arindamslt/AECCOREJAVAAPRIL2025BATCH1.git
+DATE:08.04.2025
+======================================================================================
+FEATURES OF JAVA
+==========================================================================================
+1.PLATFORM INDEPENDENT
+2.OBJECT ORIENTED PROGRAMMING
+3.DISTRIBUTED
+4.MULTITHREADING
+X.java
+javac X.java
+X.java====Java Compiler=====Bytes code====X.class
+RUN THE JAVA CODE
+========================================
+java X
+X.class =====JVM(JAVA VIRTUAL MACHINE)=====O/P
+JVM
+==============================================
+JAVA VIRTUAL MACHINE
+============================================
+IT IS AN ABSTRACT MACHINE WHOSE PURPOSE TO EXECUTE COMPILED JAVA CLASS
+
+JDK===JAVA DEVELOPMENT KIT
+JRE====JAVA RUNTIME ENVIRONMENT
+JVM====JAVA VIRTUAL MACHINE
+JIT====JUST IN TIME COMPILER
+=================================================================================
+OBJECT ORIENTED PROGRAMMING
+====================================================================================
+OBJECT==== REAL WORLD ENTITY
+CLASS==== COLLECTION OF OBJECTS WITH COMMON PROPERTIES AND BEHAVIOUR
+          IT IS A DEAD TEMPLATE
+CHAIR TABLE BOOKSHELF   FURNITURE
+COMMON PROPERTIES
+=========================================
+LENGTH
+WIDTH
+HEIGHT
+KEEPING SOMETHGING
+==============================================================================
+JAVA VERSION===JAVA17 AND ONWARDS
+NOTEPAD,NOTEPAD++
+IDE==INTEGRATED DEVELOPMENT ENVIRONMENT
+ ECLISPE,NETBEANS,STS,INTELIIJ
+
+UML
+===========================================================================
+UNIFIED MODELLING LANGUAGE
+PURPOSE
+=======================================================================
+TO DRAW THE CLASS DIAGRAM
+CREATE A WORKSPACE
+CREATE A JAVA PROJECT
+FEATURES OF OBJECT ORIENTED PROGRAMMING(OOPS)
+=================================================================================
+1.ENCAPSULATION
+2.POLYMORPHISM
+   STATIC POLYMORPHISM
+   DYNAMIC POLYMORPHISM
+3.INHERITANCE
+   SINGLE
+   MULTILEVEL
+   HIERARCHICAL
+4.ABSTRACTION
+5.DYNAMIC BINDING
+ENCAPSULATION
+==================================
+CROCIN650
+BINDING OF DATA AND METHOD TOGETHER
+POLYMORHISM
+==========================================================================
+POLY MEANS MANY
+MORPHISM MEANS FORM
+TYPES OF POLYMORPHISM
+================================================================================
+STATIC POLYMORPHISM
+=================================================================
+IT DETECTS AT COMPILATION TIME
+IT IS CALLED METHOD OVERLOADDING
+TASK(int a,int b)
+TASK(int a,float b)
+TASK(double a,double b)
+task(5,6)
+task(5,6.5)
+task(9.6,10.2)
+METHOD OVERLOADDING
+============================================================================
+SAME METHOD NAME WITH DIFFERENT ARGUMENT PASSING WITH IN THE SAME CLASS AND THE 
+BODY IS SAME
+=======================================================================================
+SUPER CLASS IN JAVA IS Object Class BELONGS TO java.lang.* PACKAGE
+=================================================================================
+
+CONSTRUCTOR
+==================================================================
+CONSTRUCTOR IS THE SAME NAME OF THE CLASS NAME
+CONSTRUCTOR IS NOT EVEN VOID OR RETURN BECAUSE IT RETURN CLASS ITSELF
+PURPOSE
+============================================
+1.CREATE THE OBJECT THE CLASS
+2.AT THE TIME OF CREATING THE OBJECT INITIALIZE THE OBJECT.
+CONSTRUCTOR OVERLOADDING
+============================================================================
+INHERITANCE
+===============================================================================
+AQUIRING THE PROPERTY FROM ONE CLASS TO ANOTHER CLASS
+PARENT==CALLED SUPER CLASS
+CHILD
+TYPES OF INHERITANCE
+=================================================
+1.SINGLE INHERITANCE
+=====================================================
+IF PARENT HAVE ONLY ONE CHILD
+2.MULTILEVEL INHERITANCE
+===============================================================
+
+3.HIERARCHICAL INHERITANCE
+================================================================
+
+4.MULTIPLE INHERITANCE
+=================================================================
+MULTIPLE INHERITANCE IS NOT SUPPORTED IN JAVA DUE TO AMBIGUITY PROBLEM
+
+DYNAMIC POLYMORPHISM
+==================================================
+IT DETECTS AT THE RUN TIME.
+IT IS CALLED METHOD OVERRIDDING
+METHOD OVERRIDDING
+===========================================================
+SAME METHOD NAME IN PARENT CLASS AS WELL AS CHILD CLASS BUT BODY IS DIFFRENT\
+UTILITY OF SUPER
+==========================================
+1.CALLING THE SUPER CLASS CONSTRUCTOR
+2.CALLING THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
+ABSTRACTION
+==============================================
+NOT CLEAR
+WHAT IS ABSTRACT CLASS?
+THE CLASS HAVE ATLEAST ONE ABSTRACT METHOD
+WHAT IS ABSTRACT METHOD?
+A METHOD CONSIDERED TO  BE  ABSTRACT IF THE METHOD HAVE NO BODY
+public void show()
+{
+
+}
+public abstract  void show();======ABSTRACT METHOD
+YOU CAN'T CREATE THE OBJECT OF THE ABSTRACT CLASS
+DYNAMIC BINDING
+==========================================================
+IT DECIDES WHICH OBJECT WHICH METHOD TO BE CALLED AT THE RUN TIME.
+=================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
