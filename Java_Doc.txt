@@ -151,6 +151,112 @@ DYNAMIC BINDING
 ==========================================================
 IT DECIDES WHICH OBJECT WHICH METHOD TO BE CALLED AT THE RUN TIME.
 =================================================================
+DATE:09.04.2025
+===================================================================================
+THIS
+===========================================================
+TO INVOKE THE CURRENT OBJECT
+SUPER
+==================================================================
+1.CALLING SUPER CLASS CONSTRUCTOR
+2.CALLING THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
+PACKAGE
+===============================================
+PACKAGE IS COLLECTION OF SIMILLAR TYPES OF CLASSES 
+MODIFIER
+=================================================================================
+MODIFIER TELLS HOW A MEMBER OF A CLASS IS BEING ACCESSED INTO ANOTHER CLASS
+class Test
+{
+   int x=25;
+}
+class Test1
+{
+  int y=30;
+}
+LIST OF MODIFIER
+=====================================================
+public======================   
+private          ACCESS SPECIFIER
+protected
+default=====================
+static
+final
+abstract
+synchronized
+native
+PRIVATE MEMBER ARE ACCESSABLE SAME CLASS ONLY
+DEFAULT MEMBER ARE ACCESSABLE SAME CLASS AND IT'S SUBCLASS MUST  BE IN SAME PACKAGE
+PUBLIC AND PROTECTED MEMBER ARE ACCESSABLE SAME CLASS AND IT'S SUBCLASS EVEN IF THEY
+ARE IN DIFFERENT PACKAGE.
+
+STATIC
+=======================================================================
+IF I WANT TO ACCESS THE STATIC MEMBER OF THE CLASS NO NEED TO CREATE THE OBJECT OF A CLASS
+IT IS ACCEESSABLE BY MEANS OF CLASS NAME
+
+STATIC BLOCK
+==========================================================================
+static{
+
+
+}
+IT EXECUTES FIRST AND ONLY ONCE.
+IT ONLY ACCEPT STATIC VARIBLE
+=================================================================================
+
+IF WE DECLARE A VARIABLE IS FINAL IT IS CONSTANT
+IF WE DECLARE A METHOD IS FINAL IT CAN'T BE OVERRIDDEN
+IF WE DECLARE CLASS IS FINAL IT CAN'T BE INHERITED
+
+
+NETSED CLASS
+====================================
+CLASS WITHIN CLASS
+EX:
+ class X{
+    class  Y   =======NESTED CLASS
+     {
+
+
+      }
+}
+IF THE NESTED CLASS IS NON STATIC THEN IT IS CALLED INNER CLASS
+OUTER CLASS MEMBER ARE ACCESSABLE TO THE INNER CLASS EVEN PRIVATE
+INNER CLASS MEMBER ARE NOT ACCESSABLE TO OUTER CLASS
+YOU CAN'T CREATE OBJECT OF INNER CLASS OUTSIDE THE OUTER CLASS
+=======================================================================================
+INTERFACE
+=======================================================================================
+INTERFACE IS AN CONTRACT BETWEEN THE IMPLEMENTED CLASS AND CLIENT CODE
+IN INTERFACE BY DEFAULT ALL METHODS ARE PUBLIC AND ABSTRACT
+
+CONSOLE INPUT OUTPUT
+=======================================
+TWO WAYS
+========================================
+BufferReader Class
+Scanner Class
+=========================================================================================
+
+EXCEPTION HANDELLING
+===================================================================================
+EXCEPTION IS AN EVENT WHICH OCCUR DURING THE EXECUTION OF THE PROGRAM.
+IF WE HANDLE THE EXCEPTION IT WILL PREVENT THE ABNORMAL TERMINATION OF PROGRAM
+WHEN WE HANDLE THE EXCEPTION IS CALLED EXCEPTION HANDELLING
+EXCEPTION HANDLE BY FIVE KEYWORDS
+============================================================
+try
+catch
+finally
+throw
+throws
+====================================================================================
+EXCEPTION HIERARCHY
+==========================================================================
+
+
+
 
 
 
