@@ -251,14 +251,77 @@ catch
 finally
 throw
 throws
-====================================================================================
+=======================N
+=============================================================
 EXCEPTION HIERARCHY
+TYPES OF EXCEPTION
 ==========================================================================
+1.UNCHECKED EXCEPTION
+=======================================================================
+RUNTIME EXCEPTION AND IT'S SUBCLASS CALLED UNCHECKED EXCEPTION
+2.CHECKED EXCEPTION
+=======================================================================
+OTHER THAN RUNTIME EXCEPTION AND IT'S SUBCLASS CALLED CHECKED EXCEPTION
+3.USERDEFINED OR CUSTOM EXCEPTION
+=========================================================================
+==========================================================================
+DATE:10.04.2025
+====================================================================================
+SUBCLASS EXCEPTION SHOULD BE WRITTEN ABOVE SUPER CLASS EXCEPTION
+HOW TO HANDLE EXCEPTION MESSAGE
+================================================================
+1.EXCEPTIONOBJECT.printStackTrace()=== EXCEPTION CLASS NAME ALONG WITH PACKAGE NAME
+                                       EXCEPTION MESSAGE
+                                       LINE NUMBER WHERE ERROR OCCURED
+2.System.out.println(ExceptionObject)===>EXCEPTION CLASS NAME ALONG WITH PACKAGE NAME
+                                         EXCEPTION MESSAGE
+3.System.out.println(ExceptionObject.getMessage())===ONLY EXCEPTION MESSAGE
+=====================================================================================
+finally
+=====================================================================================
+WHETHER EXCEPTION OCCUR OR NOT FINALLY BLOCK ALWAYS EXECUTED
+PURPOSE
+=============================================================================
+TO CLEAN UP THE TASK
+===============================================================
+USERDEFINED EXCEPTION
+=================================================================
+USER DEFINED EXCEPTION MUST THE SUBCLASS OF EXCEPTION CLASS
+YOU HAVE TO THROW THE OBJECT EXPLICITLY
+================================================================================
+IF WE DO NOT WANT TO USE TRY AND CATCH BLOCK THEN WE WILL USE THROWS CLAUSE ALONG
+WITH METHOD NAME.BUT THE THROWS CLAUSE MUST BE WRITTEN BOTH IN CALLER AS WELL AS
+CALLE ENVIRONMENT
+================================================================================
+THROW CLAUSE HAS BEEN GENERALLY USED TO HANDLE  USER DEFINED OR CUSTOM EXCEPTION ===============================================================================
+LIST OF EXCEPTION
+=============================================
+1.NullPointerException
+2.ArrayIndexOutOfBoundException
+3.InputMismatchException
+4.NumberFormatException
+5.StackOverFlowError
+========================================================================================
+STRING HANDELLING
+=========================================================================================
+"";
+Test t=new Test();
 
+=====================================================================================
+STRING METHODS
+==============================================================================
+isEmpty()
+trim()
+indexOf()
+lastIndexOf()
+toUpperCase()
+toLowerCase()
+split()
+replace()
+subString()
+=========================================================================================
 
-
-
-
+toString()=====FROM OBJECT
 
 
 
