@@ -251,7 +251,7 @@ catch
 finally
 throw
 throws
-=======================N
+
 =============================================================
 EXCEPTION HIERARCHY
 TYPES OF EXCEPTION
@@ -322,9 +322,91 @@ subString()
 =========================================================================================
 
 toString()=====FROM OBJECT
+===========================================================================================
+============================================================================================
+DATE:11.04.2025
+=============================================================================================
+MULTITHREADING
+=============================================================================================
+MULTIPROCESSING
+==========================================================================
+MULTIPLE PROCESS ARE RUNNING SIMULTENEOUSLY BY MEANS ONE OR MORE CPU
+MULTITASKING==MULTIPLE TASKS RUNNING SIMULTENEOUSLY BY SINGLE CPU
+MULTITHREADING===MULTIPLE THREADS ARE RUNNING SIMULTENEOUSLY
+PURPOSE OF MULTIPLETHREADING
+=====================================
+1.PERFORMANCE ENHANCEMENT
+2.BETTER MEMORY UTILIZATION
+3.FASTER APPLICATION DEVELOPMENT.
+
+LIFE CYCLE OR STAGES OF THE THREAD
+======================================================================
+CREATING OF THREAD
+==========================================================
+THREAD CAN BE CREATED IN TWO WAYS
+=============================================
+1.EXTENDING THE THREAD CLASS
+2.IMPLEMENTING THE RUNNABLE INTERFACE
+java.lang.*=======class ==== Thread
+class X extends Thread
+{
 
 
 
+}
+IMPLEMENTS RUNNABLE ALWAYS BETTER THAN EXTENDING THE THREAD CLASS.
+1.WHEN EXTENDING THREAD CLASS  BECOMES HEAVY
+2.IN CASE OF EXTENDING THREAD CLASS THE CHILD CLASS CAN'T THREAD FACILITY BECAUSE JAVA
+DOES NOT SUPPORT MULTIPLE INHERITANCE
+BUT IN CASE OF IMPLEMENTS RUNNABLE A SUBCALSS GET THE THREAD FACILITY.
+===========================================================================================
+THREAD SCHEDULING
+============================================================================================
+PRIORITY
+=========================================================
+
+TASK1         TASK2            TASK3
+ 3 DAYS        6 DAYS           10 DAYS
+ 5 HRS         3  HRS           1 HRS
+PRIORITIES OF THREAD
+=================================
+PRIORITY IS RANGES BETWEEN 1 TO  10
+1.MAX=========10
+2.NORM=========5===BY DEFAULT
+3.MIN==========1
+======================================================================
+DAEMON THREAD ARE LOW PRIORITY THREADS.IT WILL RUN IN THE BACKGROUND.
+WHEN MAIN THREADS END IT WILL TERMINATE THE DAEMON THREAD NOT WAITING FOR THREAD
+TO COMPLETE THE TASK.
+================================================================================
+1.SYNCHRONIZATION
+=============================================================================
+WHEN ONE THREAD ACCESSING THE SHARED RESOURCE OTHER THREAD HAVE TO WAIT TO GET RESOURCE
+IN CASE OF SYNCHRONIZATION
+2.SHARED RESOURCE
+=====================================================
+WHICH IS SHARED BY MULTIPLE THREADS
+====================================================
+3.MUTEX===MUTUALLY EXCLUSIVE LOCK
+4.CRITICAL SECTION
+5.DEADLOCK
+6. CONSUMER PRODUCER PROBLEM
+================================================================================
+SYNCHRONIZATION IS ACHEIVED BY
+==============================
+1.SYNCHRONIZATION KEYWORD
+================================================================================
+IF WE USE SYNCHRONIZED KEYWORD IN METHOD THEN ENTIRE METHOD WILL BE SYNCHRONIZED.
+THEREFORE, UNTIL AND UNLESS THE ENTIRE OPERATION OF THE METHOD HAVE NOT DONE OTHER
+THREADS HAVE TO  WAIT.
+
+2.SYNCHRONIZATION BLOCK
+==========================
+HERE ONLY PORTION OF THE BLOCK TO BE SYNCHRONIZED OTHER PART TO BE ACCESSED  BY MULTIPLE
+THREAD.
+===================================================================================
+CONSUMER PRODUCER PROBLEM
+===================================================================================
 
 
 
