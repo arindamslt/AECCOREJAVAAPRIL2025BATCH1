@@ -407,6 +407,88 @@ THREAD.
 ===================================================================================
 CONSUMER PRODUCER PROBLEM
 ===================================================================================
+DATE:12.04.2025
+===================================================================================
+COLLECTION FRAMEWORK
+====================================================================================
+int x=25;
+float y=10.5;
+ Stream.of(names).forEach(System.out::println);
+PROBLEM AREAS IN ARRAY
+===============================================================
+1.IT IS FIXED SIZE
+2.IT ALLOW HOMOGENEOUS ELEMENTS
+===================================================================
+COLLETION IS AN OBJECT WHICH HOLDS GROUP OF OBJECTS.IT BELONGS TO THE 
+java.util.* PACKAGE.
+ARRAY                      VS                  COLLECTION
+=======================================================================
+1.IT IS FIXED SIZE                         1.IT IS DYNAMIC IN NATURE
+2.IT ACCEPT ONLY HOMOGENEOUS ELEMENTS      2.IT ALLOW BOTH HOMOGENEOUS AND HETEROGENEOUS ELEMENTS
+3.IN CASE OF MEMORY MANAGEMENT IT          3.IN CASE OF MEMORY MANAGEMENT IS RECOMMENDED
+IS NOT RECOMMENDED
+4.PERFORMANCE IS BETTER THAN COLLECTION    4.PERFORMANCE IS SOLWER THAN ARRAY
+5.THER IS NO UNDERLYING DATA STRUCTURE     5.IN COLLECTION UNDERLYING DATASTRUCTURE IS THERE.
+IS THERE.THEREFORE NO PREDEFINED METHODS     THEREFORE PREDEFINED METHODS AVAILABLE
+AVAILABLE
+ARRAYLIST
+============================
+1.IT IS A DYNAMIC ARRAY
+2.UNDERLINE DATASTRUCTURE IS GROWABLE OR RESIZABLE ARRY
+3.IT ALLOW BOTH HOMOGENEOUS AND HETEROGENEOUS ELEMENTS
+4.INSERTION ORDER PRESERVED
+5.DUPLICATION IS ALLOWED
+==================================================================
+CURSOR
+==================================
+Iterator=== TRAVERSE ONLY FORWARD DIRECTION
+ListIterator===TRAVERS THE LEMENTS BOTH FORWARD AND BACKWARD DIRECTION
+Enumerator
+==================================
+ForEach Loop
+Stream API
+
+Iterator itr=arr.iterator();
+ while(itr.hasNext())
+ {
+	 System.out.println(itr.next());
+ }
+LINKED LIST
+===============================================================
+THE UNDERLYING DATA STRUCTURE IS DOUBLY LINKED LIST
+INSERTION ORDER IS PRESERVED
+IT IS GENARALLY USED FOR MIDDLE INSERTION AND DELETION
+DUPLICATION IS ALLOWED
+===============================================================
+comparator==java.util.*===compare()
+comparable==java.lang.*===compareTo()
+===========================================================================
+MAP
+============================================================================
+COMBINATION OF KEY & VALUE PAIRS WHERE KEY'S ARE NOT DUPLICATED VALUE
+MAY BE DUPLICATED.
+DATA WILL BE FETCHED BASED ON KEY
+HASHMAP====DATA WILL BE FETCHED BASED ON HASHCODE OF KEY
+LINKEDHASHMAP===DATA WILL BE FETCHED BASED ON ASCENDING ORDER OF KEY
+TREEMAP=========DATA WILL BE FETCHED BASED ON ASCENDING ORDER OF KEY.
+==============================================================================
+POJO CLASS
+===============================================================
+POJO===PLAIN OLD JAVA OBJECT
+DEFAULT CONSTRUCTOR
+PARAMETERISED CONSTRUCTOR
+GETTER()===TO GET A VALUE
+SETTER()===TO SET A VALUE
+===================================================================
+HASHTABLE IMPLEMENTATION
+===================================
+5  A
+2  B
+6  C
+15 D
+23 E
+16 F
+=========================================================================
 
 
 
