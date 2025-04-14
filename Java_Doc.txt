@@ -488,10 +488,117 @@ HASHTABLE IMPLEMENTATION
 15 D
 23 E
 16 F
+========================================================================================
+DATE:13.04.2025
+========================================================================================
+JAVA5
+JAVA8
+JAVA10
+JAVA17
+========================================================================================
+JAVA 8
+=======================================
+OBJECTIVE
+===============================================
+1.ENABLE FUNCTIONAL PROGRAMMING
+2.ENABLE PARALLEL PROCESSING
+3.SIMPLIFIED CODING
+4.CODE WILL BE CONCISE
+FEATURES OF JAVA8
+=================================================
+1.LAMDA EXPRESSION
+2.FUNCTIONAL INTERFACE
+3.DEFAULT METHOD IN INTERFACE
+4.STATIC METHOD IN INTERFACE
+5.PREDEFINED FUNCTIONAL INTERFACE
+       Predicate  
+       Function
+       Supplier
+       Consumer
+6.STREAM API
+7.METHOD REFERENCE AND CONSTRUCTOR REFERENCE BY MEANS OF DOUBLE COLON OPERATOR
+8.OPTIONAL CLASS
+9.DATE AND TIME API
+====================================================================================
+LAMDA EXPRESSION
+======================================================
+ANNOMYOUS FUNCTION
+1.FUNCTION WITHOUT NAME
+2.NO MODIFIER
+3.NO RETURN TYPE
+ () ->
+LAMDA EXPRESSION IS INVOKED FROM FUNCTIONAL INTERFACE
+FUNCTIONAL INTERFACE
+==================================================
+A INTERFECE HAVE ONLY ONE METHOD THEN IT IS CALLED FUNCTIONAL INTERFACE
+PREDEFINED FUNCTIONAL INTERFACE
+=============================================
+Predicate<T>
+======================================
+T==INPUT===ANY INPUT
+RETURN TYPE ALWAYS BOOLEAN
+METHOD NAME:test()
+Function
+==================================
+Function<T,R>
+METHOD:apply()
+====================================================================
+Consumer<T>
+RETURN TYPE ALWAYS VOID
+accept()
+=========================================
+Supplier<R>
+THERE IS NO INPUT TYPE IT  RETURN SOME DATA
+Method:get()
+=======================================================
+DATE TIME API
+===============================================================================
+
+DEFAULT INTERFACE
+===========================================================
+STREAM API
 =========================================================================
-
-
-
+TO TRAVERSE OR PROCESS THE ELEMENTS IN COLLECTION
+METHODS
+========================================
+1.filter()
+2.map()
+3.max()
+4.min()
+5.sort()
+6.sort(comparator)
+7.toList()
+===========================================================================
+System.out.println("TRAVERSE THE LEMENTS ====================");
+arr.stream().forEach(System.out::println);
+//arr.stream().forEach(a->System.out.println(a));
+System.out.println("DISPLAY EVEN VALUES=================");
+arr.stream().filter(i->i%2==0).forEach(System.out::println);
+System.out.println("MAP FUNCTION==============");
+arr.stream().map(i->i+10).forEach(System.out::println);
+System.out.println("ASCENDING ORDER===================");
+arr.stream().sorted().forEach(System.out::println);
+System.out.println("DESCENDING ORDER DATA DISPLAY===========");
+arr.stream().sorted((i1,i2)->i2.compareTo(i1)).forEach(System.out::println);
+System.out.println("MAX VALUE");
+int max=arr.stream().max((i1,i2)->i1.compareTo(i2)).get();
+System.out.println("MAXIMUM VALUE:"+max);
+System.out.println("FILTER DATA AND STORED INTO ANOTHER ARRAY LIST");
+List<Integer> clist=arr.stream().filter(i->i%2==0).collect(Collectors.toList());
+clist.stream().forEach(System.out::println);
+System.out.println("FIND OUT THOSE PRODUCT IS SAMSUNG AND PRODUCT NAME IS MOBILE");
+arr.stream().filter(p->p.getCompnm().equals("SAMSUNG")).filter(p->p.getPname().equals("MOBILE")).forEach(System.out::println);
+System.out.println("DISCOUNT OFFER RUPEES  1000/- FOR  ALL PRODUCTS");
+System.out.println("DISCOUNT OFFER  1000/-  To ALL PRODUCTS");
+arr.stream().map(p->p.getPrice()-1000.00+"=>"+p.getPname()+"==>"+p.getCompnm()).forEach(System.out::println);
+OFFER RS 1000/- PROVIDED TO COMPNAY NAME LG
+System.out.println("OFFER GIVE TO THE LG PRODUCT FOR 1000");
+arr.stream().filter(p->p.getCompnm().equals("LG")).map(p->p.getPrice()-1000.00+"=>"+p.getPname()).forEach(System.out::println);
+=======================================================================================
+OPTIONAL CLASS
+==================================================================================
+IT IS INTRODUCED BY JAVA TO OVER COME THE NULLPOINTER EXCEPTION
+====================================================================================
 
 
 
